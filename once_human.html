@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<script src="script.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <title>원스휴먼 일정 관리</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="character-setup">
+        <input id="name-input" placeholder="캐릭터 이름" onkeydown="if(event.key==='Enter') createCharacter();" />
+        <button onclick="createCharacter()">캐릭터 추가</button>
+    </div>
+
+    <div class="character-area" id="character-area"></div>
+
+</body>
+
+</html>

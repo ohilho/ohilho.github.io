@@ -1,0 +1,101 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #f9fafb;
+    color: #111827;
+    padding: 24px;
+  }
+  input, button {
+    font-family: inherit;
+    font-size: 14px;
+  }
+  .character-setup {
+    background-color: white;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 24px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  .character-setup input {
+    padding: 8px;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    margin-right: 8px;
+    width: 180px;
+  }
+  .character-setup button {
+    padding: 8px 16px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .character-area {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .character-box {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 16px;
+    width: 320px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+  .character-header {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+  .character-header div {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .character-header button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .event-section, .furniture-section {
+    margin-top: 20px;
+  }
+  .event-section h4, .furniture-section h4 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #374151;
+  }
+  .event-row {
+    border: 1px solid #e5e7eb;
+    background-color: #f3f4f6;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    padding: 8px;
+    cursor: pointer;
+  }
+  .event-label {
+    font-weight: 500;
+    color: #111827;
+    margin-bottom: 4px;
+  }
+  .event-time {
+    font-size: 13px;
+    color: #4b5563;
+  }
+  .event-bar {
+    width: 100%;
+    height: 10px;
+    background: #d1d5db;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .event-fill {
+    background: #4caf50;
+    height: 100%;
+    width: 0%;
+    transition: width 0.5s linear;
+  }
