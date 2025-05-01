@@ -204,7 +204,7 @@ function createCharacterDOM(character) {
       );
       if (!foundEvent) return;
       foundEvent.startTime = now.toISOString();
-      foundEvent.finishTime = new Date(now.getTime() + 10000).toISOString();
+      foundEvent.finishTime = new Date(now.getTime() + 3600000).toISOString();
       saveCharacters();
     };
 
